@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    color: #eee;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.title {
+    padding: 1em;
+}
+
+cover-component {
+    display: block;
+    padding: 2em 0;
+    width: 100%;
+    background: cornflowerblue;
+    font-size: 4rem;
+}
+
+@media only screen and (max-width: 568px) {
+    html {
+        font-size: 10px;
+    }
+    cover-component {
+        font-size: 1.5rem;
+    }
+}

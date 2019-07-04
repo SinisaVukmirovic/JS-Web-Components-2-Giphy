@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Components</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <template id="cover">
+        Web Components
+    </template>
+    
+    <!-- create an HTML template using <template> tag -->
+    <template id="card-view">
+        <h3>Trending GIF on Giphy</h3>
+        <p id="card-title">Example</p>
+        <img id="gif-view"/>
+        <hr>
+    </template>
+
+    <!-- ============================= -->
+
+    <cover-component></cover-component>
+
+    <card-component></card-component>
+    <card-component></card-component>
+    <card-component></card-component>
+
+    <cover-component></cover-component>
+
+
+    <script src="card.js" type="module"></script>
+    <script src="cover.js" type="module"></script>
+</body>
+</html>
